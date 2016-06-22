@@ -25,3 +25,9 @@ Please note that making more than 6 calls per second to the public API, or repea
 ```
 Please note that there is a default limit of 6 calls per second. If you require more than this, please consider optimizing your application using the push API, the "moveOrder" command, or the "all" parameter where appropriate. If this is still insufficient, please contact support to discuss a limit raise.
 ```
+
+## spec
+
+* O public api
+* O trade api
+* X push api
