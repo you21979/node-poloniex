@@ -6,6 +6,7 @@
   "dependencies": {
     "ws" : "0.8.x",
     "bluebird" : "2.10.x",
+    "@you21979/simple-verify" : "0.0.x",
     "limit-request-promise" : "0.0.x"
   },
   "readmeFilename": "README.md",
