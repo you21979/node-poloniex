@@ -1,5 +1,11 @@
 # node-poloniex
 
+## install
+
+```
+npm i @you21979/poloniex.com
+```
+
 ## api document
 
 * https://poloniex.com/support/api/
