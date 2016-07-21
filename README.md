@@ -30,4 +30,4 @@ Please note that there is a default limit of 6 calls per second. If you require 
 
 * O public api
 * O trade api
-* X push api
+* O push api
