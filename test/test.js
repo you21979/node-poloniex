@@ -16,7 +16,7 @@ describe('test', function () {
                 config.secretkey = res.secret
             })
         })
-        it('getInfo and auth', function () {
+        it('returnBalances and auth', function () {
             return les(function(url){
                 constant.OPT_TRADEAPI_URL = url + '/tradingApi'
                 var papi = px.createPrivateApi(config.apikey, config.secretkey, config.useragent);
