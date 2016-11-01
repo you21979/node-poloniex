@@ -31,6 +31,12 @@ describe('test', function () {
                 assert(param.command === 'returnBalances');
                 assert(param.nonce);
                 var result = JSON.stringify({
+                    '1CR': '0.00000000',
+                    ABY: '0.00000000',
+                    AC: '0.00000000',
+                    APH: '0.00000000',
+                    ARCH: '0.00000000',
+                    XRP: '0.00000000',
                 });
                 res.end(result);
             })
