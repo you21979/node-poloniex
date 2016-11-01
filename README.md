@@ -1,5 +1,8 @@
 # node-poloniex
 
+[![Build Status](https://secure.travis-ci.org/you21979/node-poloniex.png?branch=master)](https://travis-ci.org/you21979/node-poloniex)
+[![Coverage Status](https://coveralls.io/repos/github/you21979/node-poloniex/badge.svg?branch=master)](https://coveralls.io/github/you21979/node-poloniex?branch=master)
+
 ## install
 
 ```
