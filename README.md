@@ -36,6 +36,28 @@ Please note that there is a default limit of 6 calls per second. If you require 
 * O push api
 
 
+Tuning Network Parameter
+------------------------
+
+* Attention! Global Parameter
+* Setting - KeepAlive Connection
+* Setting - Timeout Second 
+
+```
+var poloniex = require('@you21979/poloniex.com');
+
+var appInitialize = function(){
+    poloniex.Constant.OPT_KEEPALIVE = true;
+    poloniex.Constant.OPT_TIMEOUT_SEC = 3;
+}
+
+var main = function(){
+    appInitialize();
+}
+
+main()
+```
+
 ## Error Handling
 
 * simple error control
