@@ -5,7 +5,7 @@
 
 ## install
 
-```
+``` bash
 npm i @you21979/poloniex.com
 ```
 
@@ -43,7 +43,7 @@ Tuning Network Parameter
 * Setting - KeepAlive Connection
 * Setting - Timeout Second 
 
-```
+``` javascript
 var poloniex = require('@you21979/poloniex.com');
 
 var appInitialize = function(){
@@ -62,7 +62,7 @@ main()
 
 * simple error control
 
-```
+``` javascript
 api.balances().catch(function(e){
     console.log(e.message)
 })
@@ -70,7 +70,7 @@ api.balances().catch(function(e){
 
 * technical error control
 
-```
+``` javascript
 var errors = require('@you21979/poloniex.com/errors')
 api.balances()
     .catch(errors.HttpApiError, function (reason) {
